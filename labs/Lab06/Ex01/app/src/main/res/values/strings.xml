@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab06Example01</string>
+    <string name="action_settings">Settings</string>
+    <string name="last_active">Last time activity was started:</string>
+    <string name="restart">Restart activity</string>
+    <string name="start_time">This activity started at:</string>
+</resources>

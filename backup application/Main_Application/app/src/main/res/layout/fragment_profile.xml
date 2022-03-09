@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background">
+
+        <FrameLayout
+            android:id="@+id/facebook_details_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/facebook_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Facebook Account"
+                android:textColor="@color/body_background"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/fb_profile_pic"
+                android:layout_width="100dp"
+                android:layout_height="101dp"
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/round"
+                />
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="230dp"
+                android:padding="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/input_radius">
+
+                <TextView
+                    android:id="@+id/fb_name_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/FacebookName"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fb_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </FrameLayout>
+        </FrameLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/vote_history_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@color/orange_state"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/ViewVotingHistory"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/clear_all_votes_btn"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue_state"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/ClearVotingHistory"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/user_details_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/green_button_states"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/UserDetails"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/complete_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/blue_button_states"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/CompleteProfile"
+            android:visibility="invisible"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_out_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/black"
+            android:text="@string/LogOutButton" />
+
+    </LinearLayout>
+
+</ScrollView>

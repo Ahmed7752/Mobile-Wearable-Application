@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab02Ex05</string>
+    <string-array name="countries_array">
+        <item>Scotland</item>]
+        <item>Northern Ireland</item>
+        <item>Wales</item>
+        <item>England</item>
+    </string-array>
+</resources>

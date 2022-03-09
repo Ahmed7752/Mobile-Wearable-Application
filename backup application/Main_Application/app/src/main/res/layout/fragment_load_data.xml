@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@color/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/UpLoadData"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/body_radius">
+
+            <EditText
+                android:id="@+id/input_poll_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="15dp"
+                android:hint="@string/PollData"
+                android:ems="10"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/FormatLoadPolls"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:textSize="15dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/read_poll_btn"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="80dp"
+
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/blue_button_states"
+                android:textStyle="bold"
+                android:text="@string/ReadPollButton"
+                android:textColor="@color/white"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/body_radius">
+
+            <EditText
+                android:id="@+id/input_question_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="15dp"
+                android:hint="@string/QuestionData"
+                android:ems="10"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/FormatLoadQuestions"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:textSize="15dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/read_questions_btn"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/blue_button_states"
+                android:textStyle="bold"
+                android:text="@string/ReadQuestionsButton"
+                android:textColor="@color/white"/>
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/status_txt_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/PollStatus"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/status_txt_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/QuestionStatus"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_data"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/green_button_states"
+            android:textStyle="bold"
+            android:text="@string/UploadDataButton"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_out_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"
+            android:textStyle="bold"
+            android:text="@string/LogOutButton"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</ScrollView>

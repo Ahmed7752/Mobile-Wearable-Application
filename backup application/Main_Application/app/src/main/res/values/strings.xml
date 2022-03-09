@@ -1,0 +1,111 @@
+<resources>
+    <string name="facebook_app_id">319961546387188</string>
+    <string name="fb_login_protocol_scheme">fb319961546387188</string>
+
+
+    <string name="app_name">Opinion Poll Application</string>
+    <string name="ProfileButton">Profile</string>
+    <string name="HomeButton">Home</string>
+    <string name="ViewUsers">View Users</string>
+    <string name="StronglyAgree">Strongly Agree</string>
+    <string name="SomewhatAgree">Somewhat Agree</string>
+    <string name="DontKnow">Do Not Know</string>
+    <string name="SomewhatDisagree">Somewhat Disagree</string>
+    <string name="StronglyDisagree">Strongly Disagree</string>
+    <string name="UserDetails">User Details</string>
+    <string name="UsersSection">Users Section</string>
+    <string name="SavePoll">Save Poll</string>
+    <string name="ShowAllUsers">Show All Users</string>
+    <string name="ShowAllPolls">Show All Polls</string>
+    <string name="AddNewUser">Add New User</string>
+    <string name="LoadData">Load Data</string>
+    <string name="Vote">Vote</string>
+    <string name="SharePoll">Share Poll</string>
+    <string name="FacebookName">Facebook Name: </string>
+    <string name="ViewVotingHistory">View voting History</string>
+    <string name="ClearAllFavourites">Clear All Favourites</string>
+    <string name="ClearVotingHistory">Clear Voting History</string>
+    <string name="StatsButton">Stats</string>
+    <string name="FavouritesButton">Favourites</string>
+    <string name="PollStatus">Poll(s) Status: ...</string>
+    <string name="QuestionStatus">Question(s) Status: ...</string>
+    <string name="QuestionData">Question</string>
+    <string name="YourLivePolls">Your Live Polls</string>
+    <string name="CompletedPolls">Completed Polls</string>
+    <string name="FinishLater">Finish Later</string>
+    <string name="PollData">Polls</string>
+    <string name="Topics">Topics</string>
+    <string name="PollTitle">Poll Title</string>
+    <string name="DailyPolls">Daily Poll</string>
+    <string name="SavedPolls">Saved Polls</string>
+    <string name="PostcodeResults">Your Postcode Results</string>
+    <string name="UpLoadData">Upload poll(s) and question(s) to the database. </string>
+    <string name="FormatLoadQuestions">Format: title::Poll title,(comma to separate)</string>
+    <string name="FormatLoadPolls">Format: title::topic::frequency,(comma to separate)</string>
+    <string name="ReadPollButton">Check poll data</string>
+    <string name="ReadQuestionsButton">Check Questions data</string>
+    <string name="UploadDataButton">Upload Data</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Postcode">Postcode</string>
+    <string name="Username">Username</string>
+    <string name="Age">Age</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="RepeatPassword">Repeat Password</string>
+    <string name="NewAccount">New Account</string>
+    <string name="CreateAccount">Create New Account</string>
+    <string name="Complete">Complete</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="CompleteProfile">Complete Profile</string>
+    <string name="SkipButton">Skip</string>
+    <string name="AdminLogin">Admin Login</string>
+    <string name="BackButton">Back</string>
+    <string name="LogOutButton">Log Out</string>
+    <string name="PersonalDetails">Personal Details</string>
+    <string name="Interests">Interests</string>
+    <string name="Celebrities">Celebrities</string>
+    <string name="PoliticalView">Political View</string>
+    <string name="PoliticsPolls">Politics Polls</string>
+    <string name="SportsPolls">Sports Polls</string>
+    <string name="CelebPolls">Celebrity Polls</string>
+    <string name="MoviePolls">Movies Polls</string>
+    <string name="Ethnicity">Ethnicity</string>
+    <string name="Politics">Politics</string>
+    <string name="Sports">Sports</string>
+    <string name="TVShows">TV Shows</string>
+    <string name="Movies">Movies</string>
+    <string name="PleaseLoginOrRegister">Please login or register a new account</string>
+    <string name="AppDescription">This application allows you to vote on a wide range of topics in your local area.</string>
+    <string name="Welcome">Welcome</string>
+    <string name="AppLogo">App Logo</string>
+    <string name="HintEmail">Email</string>
+    <string name="HintPassword">Password</string>
+    <string name="LoginButton">Login</string>
+    <string name="RegisterButton">Register</string>
+    <string-array name="Interest_array">
+        <item>Select</item>
+        <item>Celebrities</item>
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>TV Shows</item>
+        <item>Movies</item>
+    </string-array>
+    <string-array name="Political_array">
+        <item>Select</item>
+        <item>Far Right</item>
+        <item>Right</item>
+        <item>Centrist</item>
+        <item>Left</item>
+        <item>Far Left</item>
+    </string-array>
+    <string-array name="Ethnicity_array">
+        <item>Select</item>
+        <item>White or White British</item>
+        <item>Asian or Asian British</item>
+        <item>Black or Black British</item>
+        <item>Mixed or Multiple</item>
+        <item>Other Ethnic Group</item>
+    </string-array>
+
+</resources>

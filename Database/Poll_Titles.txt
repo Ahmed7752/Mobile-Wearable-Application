@@ -1,0 +1,5 @@
+First poll 1::Polictics
+Second poll 2::Sports
+Third poll 3::Celebs
+Fourth poll 4::Polictics
+Fifth poll 5::History

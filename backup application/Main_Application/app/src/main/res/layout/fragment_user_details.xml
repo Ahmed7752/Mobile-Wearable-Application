@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@color/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/header_radius">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/UserDetails"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/personalTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/sub_header_radius"
+            android:text="@string/PersonalDetails"
+            android:textAlignment="center"
+            android:textColor="@color/body_background"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/input_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/FirstName"/>
+
+            <TextView
+                android:id="@+id/hint_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/FirstName"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/hint_lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/LastName"/>
+            <TextView
+                android:id="@+id/input_lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/LastName"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/hint_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/Age"/>
+            <TextView
+                android:id="@+id/input_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/Age"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/hint_postcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/Postcode"/>
+            <TextView
+                android:id="@+id/input_postcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/Postcode"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/hint_phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/PhoneNumber"/>
+            <TextView
+                android:id="@+id/input_phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/PhoneNumber"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/interestsTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/sub_header_radius"
+            android:textColor="@color/body_background"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/Interests"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/input_interests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/Interests"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/PoliticalTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/sub_header_radius"
+            android:textAlignment="center"
+            android:textColor="@color/body_background"
+            android:textStyle="bold"
+            android:text="@string/PoliticalView"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/input_Political"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/PoliticalView"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/EthnicityTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/sub_header_radius"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/Ethnicity"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_radius">
+
+            <TextView
+                android:id="@+id/input_Ethnicity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/Ethnicity"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

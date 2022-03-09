@@ -1,0 +1,5 @@
+androidev/Lab06Ex01/MainActivity.java
+ androidev.Lab06Ex01.MainActivity
+ androidev.Lab06Ex01.MainActivity$1
+androidev/Lab06Ex01/BuildConfig.java
+ androidev.Lab06Ex01.BuildConfig

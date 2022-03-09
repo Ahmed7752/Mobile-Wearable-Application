@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/main_background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="33.3"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="50"
+            android:paddingLeft="20dp"
+            android:background="@drawable/main_radius"
+            android:gravity="left|center"
+            android:textColor="@color/black"
+            android:text="@string/Username"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="30">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/main_radius"
+                android:textColor="@color/black"
+                android:text="@string/Email"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/delete_button_states"
+                app:srcCompat="@drawable/ic_baseline_delete_forever_24"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

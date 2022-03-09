@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/header_radius">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/UsersSection"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/show_users_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_button_states"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/ShowAllUsers" />
+
+    <FrameLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_username_column"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="60"
+                android:paddingLeft="20dp"
+                android:gravity="left|center"
+                android:background="@drawable/sub_header_radius"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/Username"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="40">
+
+                <TextView
+                    android:id="@+id/text_view_email_column"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:background="@drawable/sub_header_radius"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/Email"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/users_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/users_list_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text=""/>
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_user_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/green_button_states"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/AddNewUser" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/loadData"
+        android:icon="@drawable/ic_baseline_cloud_upload_24"
+        android:title="@string/LoadData"></item>
+    <item
+        android:id="@+id/ViewUsers"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/ViewUsers"></item>
+</menu>

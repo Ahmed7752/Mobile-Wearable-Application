@@ -1,0 +1,20 @@
+TO DO:
+
+Allow user to share poll to twitter and or facebook
+populate tables
+make app style uniform 
+tall up score 
+show completed poll
+
+INSERT INTO RESULTS(POLL_ID, USER_ID, VOTE) SELECT t1.name, t1.age, t2.profession, t2.locationFROM people_temp_1 t1INNER JOIN people_temp_2 t2ON t1.personid = t2.id
+
+COMPLETED:
+Created a voting page to direct users when a question is clicked
+when question is clicked take user to voting page 
+when poll is clicked take to poll acticity list and list all questions 
+created different fragments for each topic
+created poll acitivity
+created database funcation to get question with pollID
+created a public shared preferance to store the id of a poll when clicked.
+decided to limit poll to 6 questions each from 10.
+
